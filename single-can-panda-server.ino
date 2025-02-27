@@ -27,7 +27,7 @@
 #define CAN_CHAR 0x18  // Cancel - Clear all filters
 
 #define MAX_FRAMES_PER_PACKET 92  // (1472 bytes / 16 bytes per frame)
-#define SEND_INTERVAL_MS 50       // Send buffer every 50ms
+#define SEND_INTERVAL_MS 50       // Send the buffer at least every 50ms
 
 AsyncUDP udp;
 IPAddress clientIP;
